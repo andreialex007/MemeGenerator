@@ -1,0 +1,120 @@
+﻿body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ttable {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.trow {
+    display: table-row;
+}
+
+.tcell {
+    display: table-cell;
+}
+
+.grow {
+    bottom: 0;
+    height: 100%;
+}
+
+
+.fill-parent-relative {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    display: block;
+    padding: 0px;
+}
+
+.controls-cell {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .controls-cell .tcell {
+        vertical-align: middle;
+    }
+
+
+.file-cell {
+    width: 88px;
+}
+
+.range-cell {
+    width: 203px;
+    margin: 0px;
+}
+
+.range {
+    margin-top: 0px;
+}
+
+    .range output {
+        border-left: 1px solid white;
+    }
+
+.cell-label {
+    padding: 5px;
+    vertical-align: middle;
+    width: 1%;
+}
+
+.message-text {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.last-button-cell {
+    width: 86px;
+}
+
+.canvas-cell {
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+    .canvas-cell > .fill-parent-relative {
+        border: 1px solid lightgray;
+        border-radius: 6px;
+        background-color: rgb(250, 248, 248);
+        text-align: center;
+    }
+
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+}
+
+    .fileinput-button input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        opacity: 0;
+        -ms-filter: 'alpha(opacity=0)';
+        font-size: 200px;
+        direction: ltr;
+        cursor: pointer;
+    }
+
+input[type="file"] {
+    display: block;
+}
